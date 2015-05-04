@@ -27,7 +27,8 @@ public class Soal {
     public int faktorial(int bil) {
         int hasil = 1;
         for (int i = 0; i <= bil; i++) {
-            hasil *= i;
+            int temp = bil-i;
+            hasil = hasil*temp;
         }
 
         return hasil;

@@ -20,6 +20,6 @@ public class App {
         System.out.println("Pangkat");
         System.out.println(s.pangkat(5, 2));
         System.out.println("Faktorial");
-        System.out.println(s.faktorial(5));
+        System.out.println(s.faktorial(3));
     }
 }
