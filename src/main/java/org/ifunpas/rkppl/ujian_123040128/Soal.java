@@ -8,11 +8,14 @@ package org.ifunpas.rkppl.ujian_123040128;
  *
  * @author SB 604-02
  */
+
+import org.junit.Assert.*;
+
 public class Soal {
 
     public int pangkat(int bil, int pangkat) {
         int hasil = 0;
-        int n = 1;
+        int n = 0;
         while (n <= pangkat) {
             n++;
             hasil *= bil;
@@ -23,7 +26,7 @@ public class Soal {
 
     public int faktorial(int bil) {
         int hasil = 1;
-        for (int i = 0; i < bil; i++) {
+        for (int i = 0; i <= bil; i++) {
             hasil *= i;
         }
 
