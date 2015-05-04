@@ -39,7 +39,7 @@ public class AppTest {
 
     @Test
     public void testFaktorial() {
-        assertSame(s.faktorial(5), 4);
+        assertSame(s.faktorial(5), 120);
         System.out.println(s.faktorial(5));
     }
 
